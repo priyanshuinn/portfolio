@@ -11,4 +11,4 @@
 8. Finally Run The Project `python manage.py runserver`
 
 ## Preview
-[![](http://img.youtube.com/vi/wslL3llm0UQ/0.jpg)](https://drive.google.com/file/d/1N8rbOe6SiDnu9U6BXsvxVBYbKgOXb1gz/view?usp=sharing"")
+[![](static/img/Screenshot%202022-05-15%20at%209.19.00%20PM.png)](https://drive.google.com/file/d/1N8rbOe6SiDnu9U6BXsvxVBYbKgOXb1gz/view?usp=sharing"")
