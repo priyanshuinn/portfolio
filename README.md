@@ -10,3 +10,5 @@
 7. Create Super User `python manage.py createsuperuser`
 8. Finally Run The Project `python manage.py runserver`
 
+## Preview
+[![](http://img.youtube.com/vi/wslL3llm0UQ/0.jpg)](https://drive.google.com/file/d/1N8rbOe6SiDnu9U6BXsvxVBYbKgOXb1gz/view?usp=sharing"")
