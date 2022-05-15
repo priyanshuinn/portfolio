@@ -12,3 +12,6 @@
 
 ## Preview
 ![](static/img/Screenshot%202022-05-15%20at%209.19.00%20PM.png)
+
+## Preview Video
+static/img/Screenshot%202022-05-15%20at%209.19.00%20PM.png
