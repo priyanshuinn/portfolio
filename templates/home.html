@@ -1,0 +1,324 @@
+{% extends 'base/base.html' %} {% load static %} {% block content %}
+
+<!--================ Start Home Banner Area =================-->
+<section class="home_banner_area">
+  <div class="banner_inner">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-lg-6">
+          <div class="banner_content">
+            <h3>Hey There !</h3>
+            <h1 class="text-uppercase" style="font-size: 50px">
+              I'm Priyanshu Singh
+            </h1>
+            <h5 class="text-uppercase">Software Developer | Data Scientist</h5>
+            <div class="social_icons my-5">
+              <a
+                href="https://www.linkedin.com/in/priyanshu-singhh/"
+                title="LinkdIn Profile"
+                target="_blank"
+                ><i class="ti-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/priyanshuinn"
+                title="GitHub Profile"
+                target="_blank"
+                ><i class="ti-github"></i
+              ></a>
+              <a href="https://www.facebook.com/priyanshu32" target="_blank"
+                ><i class="ti-facebook"></i
+              ></a>
+            </div>
+            <!-- <a class="primary_btn" href="https://github.com/sajib1066"><span>See My Work</span></a> -->
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="home_right_img">
+            <img
+              class="img-fluid"
+              src="{% static 'img/banner/self2.png' %}"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--================ End Home Banner Area =================-->
+
+<!--================ Start About Me Area =================-->
+<section class="about_area section_gap" id = "AboutMe" style="margin-bottom: 19px;">
+  <div class="container">
+    <div class="row justify-content-start align-items-center">
+      <div class="col-lg-5">
+        <div class="about_img">
+          <h1>About Me</h1>
+        </div>
+      </div>
+
+      <div class="offset-lg-1 col-lg-5">
+        <div class="main_title text-left">
+          <!-- <p class="top_text">About me <span></span></p> -->
+          <h2>Engineer</h2>
+          <p style="color: black; font-size: 17px;">
+            Diligent software developer with 1+ years of experience in software
+            development and data science. Proficient in building scalable web
+            applications using Django. Stronghold with python modules like Graphene,
+            NumPy, Pandas and Scikit learn. <br/><br/>
+            Developed plugins in Django using GraphQL API, built complex SQL scripts and worked on data collection through 
+            APIs. Adept in an assortment of technologies, including Python, Django, RDBMS (SQL), Git, 
+            Machine Learning and Docker.
+          </p>
+          <a
+            class="primary_btn"
+            href="{% static 'resume-priyanshu-singh.pdf' %}"
+            target="_blank"
+            ><span>View Resume</span></a
+          >
+          <a
+            class="primary_btn"
+            href="{% static 'resume-priyanshu-singh.pdf' %}"
+            download
+            ><span>Download Resume</span></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--================ End About Me Area =================-->
+
+<!--================ Start Skill Area =================-->
+<section class="services_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="main_title">
+          <!-- <p class="top_text">Skills <span></span></p> -->
+          <h2>
+            Skills 
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="service_item">
+          <img src="{% static 'img/services/python.png' %}" height="50px" width="50px" alt="" />
+          <h4>Python</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="service_item">
+          <img src="{% static 'img/services/Django_Logo.png' %}" height="50px" width="100px" alt="" />
+          <h4>Django</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="service_item">
+          <img src="{% static 'img/services/database.jpg' %}" height="50px" width="50px" alt="" />
+          <h4>SQL | Postgresql</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="service_item">
+          <img src="{% static 'img/services/api.jpg' %}" height="50px" width="70px" alt="" />
+          <h4>REST API | Graphene</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="service_item">
+          <img src="{% static 'img/services/git_docker.png' %}" height="50px" width="100px" alt="" />
+          <h4>Git | Docker</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <div class="service_item">
+          <img src="{% static 'img/services/ml.jpeg' %}" height="50px" width="100px" alt="" />
+          <h4>Machine Learning</h4>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<!--================ End Skill Area =================-->
+
+<!--================ Start Work Experience Area =================-->
+<section class="work_ex" id="work_ex">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="main_title">
+          <h2>
+            Work Experience
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="owl-carousel owl-theme testimonial-slider">
+      <div class="testimonial-item">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class=" mb-4 mb-lg-0">
+              <img
+                src="{% static 'img/work_experience/farziengineer.jpeg' %}"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="testi-right">
+              <h4>Farziengineer &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Jan'22 - Present</h4>
+              <p style="font-weight: bold;">Software Developer (Backend)</p>
+
+              <p style="font-size: 15px;">
+                Working on designing an E-commerce platform with custom integration like Shiprocket, Elastic Search, 
+                MoEngage, SMS and Emails, UniCommerce, UniWare, WebHook, etc.. <br/>
+                Attending regular meetings with clients like WOW Skin Science, WOW Health, PlixLife, Safari, Boat, 
+                and many more and integration partners and resolving their queries. 
+              </p>
+              <p style="font-weight: bold;"> Tech Stack : Django, Python, Docker, Git, PostgreSQL, E-commerce</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-item">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="testi-img mb-4 mb-lg-0">
+              <img
+                src="{% static 'img/work_experience/juno_terra.jpeg' %}"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="testi-right">
+              <h4>Juno Terra Pvt. Ltd &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Jun'21 - Dec'21</h4>
+              <p style="font-weight: bold;">Data Analyst Intern</p>
+
+              <p style="font-size: 15px;">
+                Worked on data collection through APIs and performing Exploratory Data Analysis (EDA) 
+                to extract insights from the data and visualizing data using tools such as Plotly, seaborn, 
+                and Matplotlib. 
+              </p>
+              <p style="font-weight: bold;"> Tech Stack : Python, ML, Rest APIs, HTML, CSS, JS</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-item">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="testi-img mb-4 mb-lg-0">
+              <img
+                src="{% static 'img/work_experience/incipient.jpeg' %}"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="testi-right">
+              <h4>INCIPIENT TECHNOLOGIES  &emsp;&emsp;&emsp; Mar'21 - Jun'21</h4>
+              <p style="font-weight: bold;"> Software Developer Intern (Backend)</p>
+
+              <p style="font-size: 15px;">
+                Designed and developed the back-end for integrating deep learning models on web and 
+                creating service for live streaming of the results from the deep learning models. 
+              </p>
+              <p style="font-weight: bold;"> Tech Stack: Django, Python, Machine LearningS</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--================ End Work Experience Area =================-->
+<!-- ================ contact section start ================= -->
+<section class="section-margin" id="contact_us">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="contact-title">Get in Touch</h2>
+      </div>
+      <div class="col-lg-8 mb-4 mb-lg-0">
+        {% if messages %}
+        <ul class="messages">
+        {% for message in messages %}
+      <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+        <form class="form-contact contact_form" action="/" method="post" id="contactForm">
+          {% csrf_token %}
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group">
+                  <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject">
+              </div>
+            </div>
+          </div>
+          <div class="form-group mt-lg-3">
+            <button type="submit" class="primary_btn button-contactForm">Send Message</button>
+          </div>
+        </form>
+
+
+      </div>
+
+      <div class="col-lg-4">
+        <div class="media contact-info">
+          <span class="contact-info__icon"><i class="ti-home"></i></span>
+          <div class="media-body">
+            <h3>Greater Noida West</h3>
+            <p>Sector-16</p>
+          </div>
+        </div>
+        <div class="media contact-info">
+          <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+          <div class="media-body">
+            <h3><a href="tel:918178881217">+91 8178881217</a></h3>
+            <br/>
+          </div>
+        </div>
+        <div class="media contact-info">
+          <span class="contact-info__icon"><i class="ti-email"></i></span>
+          <div class="media-body">
+            <h3><a href="mailto:priyanshu.singh794@gmail.com">priyanshu.singh794@gmail.com</a></h3>
+            <p>Send us your query anytime!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ================ contact section end ================= -->
+{% endblock %}
